@@ -1,0 +1,17 @@
+{
+  "name": "test-pnpm-netlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "test \"$CI\" = true && npx pnpm install -r --store=node_modules/.pnpm-store || echo skiping pnpm install",
+    "build": "echo pnpm did it > index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "is-number": "^7.0.0",
+    "pnpm": "^5.5.2"
+  }
+}

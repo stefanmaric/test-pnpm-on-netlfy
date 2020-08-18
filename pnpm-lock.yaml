@@ -1,0 +1,83 @@
+importers:
+  .:
+    devDependencies:
+      is-number: 7.0.0
+      pnpm: 5.5.2
+    specifiers:
+      is-number: ^7.0.0
+      pnpm: ^5.5.2
+  even:
+    dependencies:
+      is-even: 1.0.0
+    specifiers:
+      is-even: ^1.0.0
+  odd:
+    dependencies:
+      is-odd: 3.0.1
+    specifiers:
+      is-odd: ^3.0.1
+lockfileVersion: 5.1
+packages:
+  /is-buffer/1.1.6:
+    dev: false
+    resolution:
+      integrity: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
+  /is-even/1.0.0:
+    dependencies:
+      is-odd: 0.1.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-drUFX7rY0pSoa2qUkBXhyXtxfAY=
+  /is-number/3.0.0:
+    dependencies:
+      kind-of: 3.2.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-JP1iAaR4LPUFYcgQJ2r8fRLXEZU=
+  /is-number/6.0.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-Wu1VHeILBK8KAWJUAiSZQX94GmOE45Rg6/538fKwiloUu21KncEkYGPqob2oSZ5mUT73vLGrHQjKw3KMPwfDzg==
+  /is-number/7.0.0:
+    dev: true
+    engines:
+      node: '>=0.12.0'
+    resolution:
+      integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==
+  /is-odd/0.1.2:
+    dependencies:
+      is-number: 3.0.0
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-vFc7XONx7yqtbm9JeZtyvvE5eKc=
+  /is-odd/3.0.1:
+    dependencies:
+      is-number: 6.0.0
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-CQpnWPrDwmP1+SMHXZhtLtJv90yiyVfluGsX5iNCVkrhQtU3TQHsUWPG9wkdk9Lgd5yNpAg9jQEo90CBaXgWMA==
+  /kind-of/3.2.2:
+    dependencies:
+      is-buffer: 1.1.6
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=
+  /pnpm/5.5.2:
+    dev: true
+    engines:
+      node: '>=10.13'
+    hasBin: true
+    resolution:
+      integrity: sha512-E+YhSefHgl9ZC/lGfIbLA03dWJPGTIE3e3AFTutoVXJc9U10vfFo+AA0lUO5LrscojZbKrQLElggovYQOaYeBg==
